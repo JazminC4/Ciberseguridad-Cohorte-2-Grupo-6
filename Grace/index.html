@@ -3,9 +3,409 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mipagweb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- llamada al archivo de CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- llamada al archivo de JavaScript -->
+    <script defer src="./main.js"></script>
+    <title>Mi primera pagina Web</title>
 </head>
 <body>
-    <h1>GB</h1>
+    <div class="header" >
+        
+        <img src="./imagenes/logonegro.png" alt="imagen de logo de exo titulo"> 
+       
+        <ul>
+            <a href="#inicio">
+                <li>INICIO</li>
+            </a>
+            <a href="#descripcion">
+                <li>EXO WHAT?</li>
+            </a>
+            <a href="#disco">
+                <li>DISCOGRAFIA</li>
+            </a>
+            <a href="#miembros">
+                <li>INTEGRANTES</li>
+            </a>        
+            <a href="#musica">
+                <li>¡VAMOS A ESCUCHARLOS!</li>
+            </a>
+        </ul>
+        
+
+
+    </div>
+   
+
+<!-- contenedor para poner una carrusel de bootstrap -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagenes/2slide2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/3slide3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/saludo.gif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+    <div id="inicio" >
+        <div class="caja">
+        <h1>BIENVENIDA</h1>
+        <p>Hola querid@ internauta, bienvenido o bienvenida a mi primera página Web ^^ espero te sientas agusto en mi página, la cúal está dedicada a mi banda favorita ¡EXO! ellos han estado en mi vida desde hace 6 años, su música ha sido un rayito de sol en mi vida por lo que vi conveniente hablar un poco de ellos y que más personas conozcan a estos maravillosos seres jeje...no será mucho está página web pero es trabajo honesto ^^ </p>
+        </div>
+
+        <div class="caja">
+        <img src="./imagenes/bienvenida.jpeg" alt="foto grupal">
+        </div>
+    </div>
+
+
+
+    <div id="descripcion" >
+        <div class="caja">
+            <h1>¿QUE RAYOS ES UN EXO?</h1>
+            <p>EXO es un grupo de kpop conformado por 9 chicos, 8 coreanos y 1 chino, debutaron como grupo el 8 de Abril de 2012...Pero aja ¿Qué es un EXO?</p>
+            <p>EXO no es un simple grupo nada más, su concepto es muy peculiar y atractivo ya que el nombre EXO proviene de su planeta de origen...un planeta fuera del sistema Solar, el hermoso "EXO PLANET", si están pensando que son extraterrestes...si amigos ellos son extraterrestres jaja y no solo eso!! ellos tienen superpoderes y cada uno de ellos posee uno diferente.  </p>
+            <p>El primer álbum de EXO, XOXO (2013), lanzado junto con el sencillo «Wolf», fue un éxito comercial; vendió más de un millón de copias, convirtiendo a EXO en el primer artista coreano en hacerlo en doce años. Sus lanzamientos posteriores también fueron extremadamente exitosos, cada uno de sus álbumes de estudio vendió más de un millón de copias. </p>
+            <p>EXO ha ganado numerosos premios a lo largo de su carrera, incluidos cinco premios consecutivos como «Álbum del año» en los MAMA Awards y dos premios como «Artista del año» en los Melon Music Awards, y ha realizado más de cien conciertos y cuatro giras. Además de sus actividades como grupo, los integrantes tienen contratos publicitarios para marcas famosas. </p>
+            <h2>¿Por qué deberías escucharlos?</h2>
+            <p>Si aún tienes dudas de escucharlos te diré que además de tener música interpretada en coreano, mandarín y japonés, incorpora principalmente dance pop, hip-hop, R&B, EDM así como house y trap, música muy mamalona pues jaja, y no solo eso, cada uno de sus albums están relacionados entre sí iguiendo su concepto principal donde puedes interiorizar en teorias de su historia, de sus poderes, etc...Deberías darles una oportunidad a estos talentosos chicos, yo sé que no te arrepentiras ^^ </p>
+        </div>
+    
+        <div class="caja">
+            <img src="./imagenes/descrip.jpg" alt="...">
+        </div>
+    </div>
+    
+
+
+
+    <div id="disco" >
+        <div class="caja">
+        <h1>DISCOGRAFIA</h1>
+        <p> EXO TIENE UNA LARGA DISCOGRAFIA DURANTE LOS AÑOS ES POR ELLOS QUE LA SIGUIENTE LISTA MUESTRA ALGUNOS DE ELLOS: </p>
+        <ul> 
+            <li>2013: XOXO</li>
+            <li>2015: Exodus</li>
+            <li>2016: Ex'Act</li>
+            <li>2017: The War</li>
+            <li>2018: Don't Mess Up My Tempo</li>
+            <li>2019: Obsession</li>
+            <li>2023: Exist</li>
+        </ul>
+        </div>
+
+        <div class="caja">
+            <img src="./imagenes/discografia.jpeg" alt="discografia" id="imdisc">
+        </div>
+
+    </div>
+
+
+
+
+    <div id="miembros">
+
+        <div>
+            <h1>INTEGRANTES DE EXO</h1>
+        </div>
+
+        <div class="contenedor">
+
+            <div class="listas">
+                <ul>
+                    <li>SUHO</li>
+                    <li>Lider, Vocalista y Bailarín</li>
+                    <li>Superpoder: Agua</li>
+                    <li> </li>
+                    <li>XIUMIN</li>
+                    <li>Vocalista, Rapero y Bailarín</li>
+                    <li>Superpoder: Hielo</li>
+                    <li> </li>
+                    <li>LAY</li>
+                    <li>Vocalista, Rapero y Bailarín principal</li>
+                    <li>Superpoder: Curación</li>
+            </div>
+
+            <div class="listas">
+                <ul>
+                
+                    <li>BAEKHYUN</li>
+                    <li>Vocalista principal y Bailarín</li>
+                    <li>Superpoder: Luz</li>
+                    <li> </li>
+                    <li>CHEN</li>
+                    <li>Vocalista principal y Bailarín</li>
+                    <li>Superpoder: Rayo</li>
+                    <li> </li>
+                    <li>CHANYEOL</li>
+                    <li>Rapero principal, Vocalista y Bailarín</li>
+                    <li>Superpoder: Fuego</li>
+                </ul>    
+            </div>
+
+            <div class="listas">
+                <ul>    
+                    <li>DO</li>
+                    <li>Vocalista principal y Bailarín</li>
+                    <li>Superpoder: Tierra</li>
+                    <li> </li>
+                    <li>KAI</li>
+                    <li>Vocalista, Rapero y Bailarín principal</li>
+                    <li>Superpoder: Teletransportación</li>
+                    <li> </li>
+                    <li>SEHUN</li>
+                    <li>Rapero principal, Bailarín principal y Maknae</li>
+                    <li>Superpoder: Viento</li>
+
+                </ul>
+            </div>
+            
+            <!--div class="listas"-->
+                <!--img src="./imagenes/miembros.jpg" alt="integrantes"-->
+            <!--/div-->
+            
+            <!-- contenedor para poner una carrusel de bootstrap -->
+            <div class="listas">
+
+                <div id="carouselExampleIndicators" class="carousel slide carousel-two" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                      <!-- Agrega tantos elementos li como imágenes tengas -->
+                      <!-- ... -->
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./imagenes/suho.jpg" alt="Primera imagen">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagenes/xiumin.jpg" alt="Segunda imagen">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagenes/lay.jpg" alt="Segunda imagen">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagenes/baekhyun.jpg" alt="Segunda imagen">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagenes/chen.jpg" alt="Segunda imagen">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagenes/chanyeol.jpg" alt="Segunda imagen">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagenes/do.jpg" alt="Segunda imagen">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagenes/kai.jpg" alt="Segunda imagen">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagenes/sehun.jpg" alt="Segunda imagen">
+                      </div>
+                      <!-- ... -->
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    
+                </div>
+
+            </div>   
+
+        </div> <!--cierre caja2-->
+
+    </div>
+
+
+    <div id="musica">
+        <div>
+            <h1>ACOMPAÑAME A ESCUCHAR A EXO</h1>
+        </div>
+        <!-- contenedor general para poner las 3 secciones -->
+        <div class="contenedor">
+            <!-- primera seccion -->
+            <div class="secciones">
+                <h1>RESENTACIONES EN VIVO</h1>
+
+                <button onclick='muestra_oculta("contenido")' class="btn btn-primary" form="contenido" >+</button>
+
+                <div id="contenido" >
+                    <!-- este contenedor es el que quiero ocultar/mostrar -->
+                    <div> <!--cajita de cream soda video y descripcion -->
+                        <div class="caja">
+                            <h3>CREAM SODA</h3>
+                            <p>Año: 2023</p>
+                            <a href="https://www.youtube.com/watch?v=i5nUufn_FmE"><p>LINK DEL VIDEO MUSICAL</p></a>
+                        
+
+                        </div>
+
+                        <div class="caja"> <!--youtube cream soda-->
+                            <iframe width="350" height="315" src="https://www.youtube.com/embed/noIAZcwCDA0?si=dTEv-q1f_0xGMScA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+                        </div>
+                    </div> <!--fin de cajita cream soda-->
+
+                    <div > <!--cajita de tempo-->
+                        <div class="caja">
+                            <h3>DON'T MESS UP MY TEMPO</h3>
+                            <p>Año: 2018</p>
+                            <a href="https://www.youtube.com/watch?v=iwd8N6K-sLk"><h5>LINK DEL VIDEO MUSICAL</h5></a>
+                    
+                        </div>
+                
+                        <div class="caja"> <!-- youtube  Tempo-->
+                            <iframe width="350" height="315" src="https://www.youtube.com/embed/KAPktH0pMVQ?si=pfzxjuAtxfgCjt_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>                        
+                    </div> <!--fin de cajita TEMPO-->
+
+                    <div > <!--cajita de THE EVE-->
+                        <div class="caja">
+                            <h3>THE EVE</h3>
+                            <p>Año: 2017</p>
+                            <a href="https://www.youtube.com/watch?v=fz6SHUbvgwo"><h5>LINK DEL VIDEO MUSICAL</h5></a>
+                        </div>
+
+                        <div class="caja"> <!--youtube-->
+                            <iframe width="350" height="315" src="https://www.youtube.com/embed/Ne0Pp--9Vhw?si=D9F-nWJYuH48nRcS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>                        
+                    </div> <!--fin de cajita THE EVE-->
+                </div>
+        
+            </div>
+
+            <!-- segunda seccion -->
+            <div class="secciones">
+                <h1>SEGUN TU FEELING</h1>
+                <button onclick="muestra_oculta('contenido2')" class="btn btn-primary" form="contenido2" >+</button>
+                <div id="contenido2" >
+                    <!-- este contenedor es el que quiero ocultar/mostrar -->
+                    <div> <!--cajita  -->
+                        <div class="caja">
+                            <h3>NAVIDAD</h3>
+                            <p>FIRST SNOW</p>                            
+                        </div>
+
+                        <div class="caja"> <!--youtube -->
+                            <iframe width="350" height="315" src="https://www.youtube.com/embed/3gWvzKJl6Vw?si=LmE-Zpf9AnZ_ILm7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div> <!--fin de cajita -->
+
+                    <div > <!--cajita -->
+                        <div class="caja">
+                            <h3>PARA ANIMARTE </h3>
+                            <p>COSMIC RAILWAY </p>
+                            
+                        </div>
+                
+                        <div class="caja"> <!-- youtube-->
+                            <iframe width="350" height="315" src="https://www.youtube.com/embed/cLEMC1QZS_Y?si=NTwSMdBtvZ4ygaUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="caja">
+                            <p>BEAR HUG </p>
+                        </div>
+
+                        <div class="caja"> <!--youtube-->
+                            <iframe width="350" height="315" src="https://www.youtube.com/embed/oII1QchF3bk?si=aX0TJyVwKbFgEE86" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="caja">
+                            <p>GOOD ENOUGH </p>
+                        </div>
+                        <div class="caja"> 
+                            <iframe width="350" height="315" src="https://www.youtube.com/embed/RQ23Me522-g?si=Ap2qVLiO7kdKR9kL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                        
+                    </div> <!--fin de cajita -->
+
+                    <div > <!--cajita -->
+                        <div class="caja">
+                            <h3>IDEAL PARA VIAJAR</h3>
+                            <p>NO MATTER</p> 
+                        </div>
+
+                        <div class="caja"> 
+                            <iframe width="350" height="315" src="https://www.youtube.com/embed/xH7L8DMc_1Y?si=1xugbXFciXNJqDnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div> <!--fin de cajita-->
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+            <!-- TERCERA seccion -->
+            <div class="secciones">
+                <h1>ALGUNOS ALBUMS EN SPOTIFY</h1>
+
+                <button onclick='muestra_oculta("contenido3")' class="btn btn-primary" form="contenido" >+</button>
+
+                <div id="contenido3" >
+                    <!-- este contenedor es el que quiero ocultar/mostrar -->
+                    <div class="caja"> <!--spotify-->
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4qMcBYh4ZlwDeb7vfgZO61?utm_source=generator&theme=0" width="350" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+
+                    <div class="caja">                                                    
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0aMI0Kctp6xwSnRFakNF3D?utm_source=generator" width="350" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                        
+                    </div> 
+
+                    <div class="caja">                         
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/53pJcIJBdlm5rhVhjSnvHn?utm_source=generator" width="350" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>   
+                    </div> 
+
+                    <div class="caja">                         
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4qduCvpyBL5hGYdBvCvcDA?utm_source=generator" width="350" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div> 
+
+                    <div class="caja">                         
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7uNyF6MKaVHi5TJqIiNobm?utm_source=generator" width="350" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div> 
+                </div>        
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <h3>Copyright 2023 EXO WE ARE ONE |GRACE EXOL</h3>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
 </body>
 </html>

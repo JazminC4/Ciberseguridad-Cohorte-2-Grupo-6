@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+body {
+  background-color: rgb(192, 187, 187);;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(fon2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header img {
+  width: 150px;
+  padding: 15px;
+
+}
+
+.header ul {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  padding-right: 15px;
+
+}
+.header li {
+  list-style: none;
+  font-size: 28px;
+  margin: 0px 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+}
+a {
+  text-decoration: none;
+  color: rgb(246, 247, 252);
+}
+
+
+#inicio {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(192, 187, 187);
+  
+}
+
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  background-color: rgb(192, 187, 187);
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+
+}
+.cajitas {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+
+.listas{
+  width: 100%;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.listas li{
+  list-style:none;
+
+}
+
+.listas img {
+  padding-left: 20px;
+}
+
+
+.caja{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#descripcion {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(192, 187, 187);
+  
+}
+
+#disco {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(192, 187, 187);
+}
+
+#imdisc{
+  width: 300px;
+}
+
+
+.p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#miembros {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(192, 187, 187);
+}
+
+
+#envivo {
+  display: none;
+  flex-direction: row;
+  width: 100%;
+}
+
+#musica {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.secciones {
+  width: 100%;
+  margin: 15px 0;
+  padding: 15px;
+}
+.secciones h1 {
+  font-size: 21px;
+  color: rgb(2, 33, 70);
+  text-align: justify;
+}
+.secciones p {
+  font-size: 18px;
+  text-align: justify;
+}
+button {
+  background-color: rgb(3, 79, 12);
+  color: white;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+#contenido, #contenido2, #contenido3 {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(156, 199, 242);
+}
+
+footer h3 {
+  font-size: 15px;
+}
+
+.carousel-item img {
+  max-height: 500px; /* Ajusta la altura máxima de las imágenes */
+  width: auto;
+  margin: 0 auto;
+}
+
+.carousel-two .carousel-item img {
+  max-width: 300px;
+  max-height: 800px;
+}
+
+.carousel-two {
+  position: relative;
+}
+
+.carousel-two .carousel-control-prev, .carousel-two .carousel-control-next {
+  width: 5%;
+}
+
+.carousel-two .carousel-control-prev-icon, .carousel-two .carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/* Ajustes adicionales para mejorar la alineación */
+.carousel-two .carousel-control-prev {
+  left: 50px;
+}
+
+.carousel-two .carousel-control-next {
+  right: 30px;
+}
